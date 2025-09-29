@@ -1,0 +1,6 @@
+What is the advantage of using a tail pointer in a linked list?
+
+
+The main advantage of using a tail pointer is that it is efficient when 
+checking the end of a list. It turns the constant time insertion at the end
+of a list into (O(1)).
