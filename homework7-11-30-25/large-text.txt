@@ -1,0 +1,21 @@
+huffman coding is a classic algorithm used in data compression. it assigns shorter bit 
+patterns to more frequent characters and longer bit patterns to less frequent ones. 
+this allows the resulting encoded data to occupy fewer bits than the original representation. 
+the goal of this large input file is to give your implementation enough data to build a deep 
+and complex huffman tree. the input includes repeated patterns, long sequences of text, 
+and varied character frequencies so that your algorithm can demonstrate its ability to 
+handle realistic compression workloads.
+
+as you run your huffman encoder, remember that the frequency map will dictate the structure 
+of the tree. nodes with lower total frequency will be combined first, forming the deeper 
+branches of the tree. the final tree will produce a set of prefix free binary codes that 
+allow unambiguous decoding. verifying this process is essential for demonstrating that your 
+implementation is correct. this file also includes several repeated words such as compression, 
+algorithm, data, and huffman which should appear prominently in your frequency table.
+
+after compressing the file, your encoder should output the encoded bitstream to a file of your 
+choice. make sure you follow your assignment guidelines by printing the input set, the 
+frequency map, the generated huffman codes, and the final tree structure. after that, run your 
+decoder using the produced encoded file and the mapping of codes to characters. the decoded 
+output should be identical to this text. once confirmed, take screenshots of both your 
+compression and decompression steps and include them along with your readme.txt submission.

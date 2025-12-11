@@ -1,0 +1,6 @@
+huffman encoding is a powerful compression technique that uses variable length codes 
+based on character frequency. characters that appear more often get shorter codes 
+while rare characters get longer ones. this medium sized text file is designed to 
+provide enough variety for you to build a meaningful huffman tree and test your 
+encoder and decoder implementations thoroughly. make sure your program prints the 
+frequency map, the tree structure, the encoded binary string, and the decoded result.
