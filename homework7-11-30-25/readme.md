@@ -1,5 +1,5 @@
 # CS526 Homework 7
-**Due Date:** December 8, 2025
+**Due Date:** December 4, 2025
 
 ---
 
